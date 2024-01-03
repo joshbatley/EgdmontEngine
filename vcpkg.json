@@ -1,0 +1,20 @@
+{
+  "name" : "egdmontengine",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "6a3dd0874f153f8b375ec26210ea6d41dee3bb26",
+  "dependencies" : [ {
+    "name" : "sdl2",
+    "version>=" : "2.28.5#1"
+  }, {
+    "name" : "sdl2-gfx",
+    "version>=" : "1.0.4#11"
+  }, {
+    "name" : "imgui",
+    "version>=" : "1.90#2",
+    "features": [
+      "sdl2-binding",
+      "sdl2-renderer-binding",
+      "docking-experimental"
+    ]
+  } ]
+}
